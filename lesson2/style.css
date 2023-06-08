@@ -1,0 +1,27 @@
+h1 {
+    color: #ff1500
+}
+
+h3 {
+    color: darkcyan;
+    background-color:#f6f6c1;
+    background-position: top;
+}
+
+#label_head_1 {
+    background: #e8dcda;
+    color: darkred;
+}
+
+.first_class {
+    color: rgb(75, 8, 8);
+    background: rgb(227, 194, 194);
+    width: 30%;
+    background-image: url(cat.jpeg);
+}
+
+.second_class {
+    color: rgb(26, 55, 7);
+    background: rgb(203, 213, 247);
+    width: 40%;
+}
