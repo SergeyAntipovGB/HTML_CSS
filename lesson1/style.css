@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(20deg,
+    rgba(23, 216, 178, 0.3),
+    rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(150deg, rgba(247, 255, 92, 0.3), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(330deg, rgba(83, 9, 71, 0.3), rgba(0, 0, 255, 0) 70.71%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+h1 {
+    color: #ff1500;
+    text-align: center;
+    text-shadow: 0 0 15px #0445d1;
+}
+
+h3 {
+    color: darkcyan;
+    background-color:#f6f6c1;
+    background-position: top;
+    text-align: center;
+}
+
+#label_head_1 {
+    background: #e8dcda;
+    color: darkred;
+}
+
+.text_menu {
+    color: blue;
+    font-size: 20px;
+}
+
+.first_class {
+    color: rgb(75, 8, 8);
+    background: rgb(227, 194, 194);
+    width: 70%;
+    background-image: url(cat.jpeg);
+    text-align: left;
+    float: left;
+}
+
+.second_class {
+    color: rgb(26, 55, 7);
+    background: rgb(203, 213, 247);
+    width: 70%;
+    text-align: right;
+    float: right;
+}
+
+.firstTitle {
+	color: #4e1616;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7d7987;
+}
+
+.picture {
+    border-radius: 20px;
+    width: 300;
+}
+
+.formInput {
+	width: 200px;
+	height: 30px;
+	outline-style: dotted;
+	border: 5px solid #ee8b8b;
+	border-radius: 15px;
+	font-size: 14px;
+	line-height: 10px;
+}
+
+.btn {
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.active {
+    background-color: coral;
+}
