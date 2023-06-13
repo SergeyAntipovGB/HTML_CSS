@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: sans-serif;
     background: linear-gradient(20deg,
     rgba(23, 216, 178, 0.3),
@@ -8,21 +8,21 @@ body {
     /* display: flex; */
     flex-direction: column;
     height: 100vh;
-}
+} */
 
 a {
     text-decoration: none;
-    color: cornflowerblue;
+    /* color: cornflowerblue; */
 }
 
-h1 {
+/* h1 {
     color: #ff1500;
     text-align: center;
     text-shadow: 0 0 15px #0445d1;
     font-size: 35px;
     line-height: 36px;
     font-weight: bold;
-}
+} */
 
 /* h3 {
     color: darkcyan;
@@ -40,7 +40,6 @@ h1 {
     color: cornflowerblue;
     font-size: 20px;
     line-height: 20px;
-    
 }
 
 .first_class {
