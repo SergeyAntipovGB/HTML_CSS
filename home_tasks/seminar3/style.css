@@ -1,5 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
 
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./fonts/Gilroy-Regular.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(./fonts/Gilroy-Semibold.woff2);
+}
 /*Обнуление стилей*/
 * {
     margin: 0;
@@ -26,39 +43,84 @@ img {
 /*Основные стили*/
 body {
     background: #FFFFFF;
-
 }
 
 main {
 }
 
 header {
-
+    margin-top: 40px;
+    margin-bottom: 83px;
 }
 
 .logo__navigation {}
 
-.navigation__link {
-
+nav {
+    width: 533px;
+    height: 17px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
 }
 
-.content__wrapper {}
+.navigation__lorange {
+    color: #F25822;
+}
 
-.content__leftblock {}
+.navigation__link {
+    color: black;
+}
 
-.content__rightblock {}
+.content__wrapper {
+    margin-bottom: 162px;
+    width: 100%;
+}
+
+.content__leftblock {
+    width: 522px;
+}
 
 .content__mainTitle {
-
+    margin-bottom: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
 }
 
 .content__description {
-
+    margin-bottom: 37px;
+    width: 466px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
-.content__button1 {}
+.content__button1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-right: 72px;
+    padding: 15px 35px;
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+}
 
 .content__button2 {
+    width: 90px;
+    height: 19px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
     border: none;
     background: none;
     outline: none;
@@ -67,6 +129,11 @@ header {
 
 .content__rightblock {}
 
-footer {}
+footer {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
 
-.logotypes {}
+.logotypes {
+    height: 50px;
+}
