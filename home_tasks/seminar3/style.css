@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+/*Обнуление стилей*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*Центрирование контента (375px по бокам)*/
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*Основные стили*/
+body {
+    background: #FFFFFF;
+
+}
+
+main {
+}
+
+header {
+
+}
+
+.logo__navigation {}
+
+.navigation__link {
+
+}
+
+.content__wrapper {}
+
+.content__leftblock {}
+
+.content__rightblock {}
+
+.content__mainTitle {
+
+}
+
+.content__description {
+
+}
+
+.content__button1 {}
+
+.content__button2 {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.content__rightblock {}
+
+footer {}
+
+.logotypes {}
