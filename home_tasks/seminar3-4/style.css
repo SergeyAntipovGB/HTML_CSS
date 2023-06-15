@@ -45,15 +45,20 @@ body {
     background: #FFFFFF;
 }
 
-main {
-}
-
 header {
     margin-top: 40px;
     margin-bottom: 83px;
 }
 
-.logo__navigation {}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position__navigation {
+    display: flex;
+    justify-content: space-between;
+}
 
 nav {
     width: 533px;
@@ -75,11 +80,13 @@ nav {
 
 .content__wrapper {
     margin-bottom: 162px;
-    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .content__leftblock {
     width: 522px;
+    margin-right: 41px;
 }
 
 .content__mainTitle {
@@ -92,11 +99,17 @@ nav {
 
 .content__description {
     margin-bottom: 37px;
-    width: 466px;
+    width: 467px;
     font-family: 'Gilroy-Medium';
     font-size: 20px;
     line-height: 23px;
     color: #888888;
+}
+
+.bths {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .content__button1 {
@@ -112,6 +125,7 @@ nav {
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
     border: none;
+    cursor: pointer;
 }
 
 .content__button2 {
@@ -127,8 +141,6 @@ nav {
     cursor: pointer;
 }
 
-.content__rightblock {}
-
 footer {
     padding-top: 97px;
     padding-bottom: 96px;
@@ -136,4 +148,6 @@ footer {
 
 .logotypes {
     height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
