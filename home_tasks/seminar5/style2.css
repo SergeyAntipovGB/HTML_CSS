@@ -1,16 +1,41 @@
-.section1 {}
+.section1 {
+    height: 491;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-.section1__gridbox {}
+.section1__flexbox {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
 
 .section1__box1 {}
 
 .section1__img {}
 
-.section1__subtext {}
+.section1__subtext {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
 
-.section1__description {}
+.section1__description {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+    color: #666666;
+}
 
-.section1__link {}
+.section1__link {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    /* identical to box height, or 16px */
+    color: #000000;
+}
 
 .section1__box2 {}
 
@@ -20,9 +45,21 @@
 
 .section2__text {}
 
-.section2__subtext {}
+.section2__subtext {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
 
-.section2__description {}
+.section2__description {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    color: #666666;
+}
 
 .section2__gridbox {}
 
@@ -30,11 +67,52 @@
 
 .section2__grimg {}
 
-.section2__grsubtext {}
+.section2__grsubtext {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
 
-.section2__grdescription {}
+.section2__grdescription {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+    text-align: center;
+    color: #AAAAAA;
+}
 
-.section2__grbutton {}
+.section2__grbutton {
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    /* line-height: 150%; */
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /* text-align: center; */
+    color: #FFFFFF;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.section2__btntxt {
+    margin-right: 6px;
+}
+
+.small__btn {
+    width: 4px;
+    height: 8px;
+    /* margin-top: 21px;
+    margin-bottom: 21px; */
+    /* border: 1.5px solid #FFFFFF; */
+}
 
 .section2__grbox2 {}
 
