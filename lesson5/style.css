@@ -48,13 +48,10 @@ header {
     color: #FFFFFF;
 }
 
-main {
-    margin-bottom: 197px;
-}
-
 .content__wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 197px;
 }
 
 .content__block {
@@ -109,4 +106,6 @@ main {
 .logo__linkInformation {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
+
