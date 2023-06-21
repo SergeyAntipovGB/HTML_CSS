@@ -83,8 +83,10 @@
 .section2__box {
     width: 370px;
     height: 550px;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 .section2__grimg {
