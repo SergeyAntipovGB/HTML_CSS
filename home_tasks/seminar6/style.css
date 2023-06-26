@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
 
 
 header {}
@@ -31,6 +31,56 @@ section {}
 
 .content__textBlock__subtitle {}
 
-.
 
-.
+
+
+.content__secondBlock {}
+
+.content__centeredBlock {}
+
+.content__topSection {}
+
+.content__tS__fBox {}
+
+.content__tS__img {}
+
+.content__tS__text {}
+
+.content__tS__h3 {}
+
+.content__tS__h2 {}
+
+
+
+.content__bottomSection {}
+
+.content__bS__header {}
+
+.content__bS__title {}
+
+.content__bS__describe {}
+
+
+
+.content__bS__grid {}
+
+.content__bS__layer {}
+
+.bord {}
+
+.bord__img {}
+
+.content__bS__title {}
+
+.content__bS__description {}
+
+.content__bS__price {}
+
+
+
+.content__bS__navigation {}
+
+.content__bS__batton {}
+
+.content__bS__txtbtn {}
+
