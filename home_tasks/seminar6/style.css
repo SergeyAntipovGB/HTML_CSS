@@ -1,15 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
 
 
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
 header {}
 
-.header__wrapper {}
+.header__wrapper {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #222;
+}
 
-.header__leftBlock {}
+.header__leftBlock {
+    margin-left: 235px;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 40px;
+}
 
-.header__rihgtBlock {}
+.header__rihgtBlock {
+    margin-right: 235px;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 33px;
+}
 
-.header__nav {}
+.header__nav {
+    cursor: pointer;
+}
 
 main {}
 
@@ -17,7 +45,9 @@ section {}
 
 .content__wrapper {}
 
-.content__firstBlock {}
+.content__firstBlock {
+    flex-shrink: 0;
+}
 
 .content__firstBlock__img {}
 
