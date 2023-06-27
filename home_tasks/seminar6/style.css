@@ -4,10 +4,7 @@
 .container {
     width: 1600px;
     margin: 0 auto;
-
-    border: 1px solid black;
 }
-
 
 header {}
 
@@ -16,7 +13,6 @@ header {}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
     background-color: #222;
 }
 
@@ -83,17 +79,17 @@ section {}
 .content__textBlock {}
 
 .content__textBlock__title {
-color: #222;
-font-size: 48px;
-font-family: Lato;
-font-weight: 900;
+    color: #222;
+    font-size: 48px;
+    font-family: Lato;
+    font-weight: 900;
 }
 
 .content__textBlock__subtitle {
     color: #222;
-font-size: 32px;
-font-family: Lato;
-font-weight: 600;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 600;
 }
 
 
