@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="product">
+        <div class="product__img"></div>
+        <h2 class="product__name">Name product</h2>
+        <p class="product__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <!-- Дан код https://codepen.io/alexej-kadochnikow/pen/RwQrvov 
+    Необходимо создать псевдоэлемент new
+    Разместить его в правом верхнем углу блока product чтобы он не смещал другие элементы
+    Размеры блока 35 на 35 px
+    цвет фона красный, а цвет текста белый
+    Необходимо создать псевдоэлемент sale
+    Разместить его в левом верхнем углу блока product чтобы он не смещал другие элементы
+    размеры блока 35 на 35 px
+    цвет фона оранжевый, а цвет текста белый -->
+    <style>
+        .product {
+            width: 250px;
+            padding: 24px;
+            border: 1px solid #000;            
+        }
+
+        .product__img {
+            background-color: forestgreen;
+            height: 150px;
+            position: relative;
+        }
+        
+        .product__img::after {  /* псевдоэлемент */
+            content: 'new';     /* может быть и картинка */
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: red;
+            color: white;
+            width: 35px;
+            height: 35px;
+
+        }
+        
+        .product__img::before {  /* псевдоэлемент */
+            content: 'sale';     /* может быть и картинка */
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: orange;
+            color: white;
+            width: 35px;
+            height: 35px;
+        }
+    </style>
+</body>
+</html>
