@@ -13,6 +13,14 @@
         margin-right: 40px;
     }
     
+    .content__textBlock__title {
+        font-size: 44px;
+    }
+    
+    .content__textBlock__subtitle {
+        font-size: 24px;
+    }
+
     .content__firstBlock__deskriptionBlock{
         padding-left: 40px;
         padding-top: 138px;
@@ -67,10 +75,13 @@
     }
 
     .content__bS__grid {
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 16px;
         margin-bottom: 33px;
+    }
+
+    .content__bS__blockBtn {
+        margin-bottom: 70px;
     }
 }

@@ -92,9 +92,6 @@ section {}
     font-weight: 700;
 }
 
-
-
-
 .content__secondBlock {}
 
 .content__centeredBlock {
@@ -217,6 +214,7 @@ section {}
     color: #000;
     font-size: 13px;
     font-family: Lato;
+    font-weight: 400;
     margin-bottom: 12px;
     margin-left: 18px;
 }
@@ -235,6 +233,7 @@ section {}
     color: #F16D7F;
     font-size: 16px;
     font-family: Lato;
+    font-weight: 300;
     margin-bottom: 20px;
     margin-left: 18px;
 }
@@ -243,6 +242,7 @@ section {}
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .content__bS__navigation {
