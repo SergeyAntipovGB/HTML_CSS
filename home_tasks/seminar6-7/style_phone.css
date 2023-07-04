@@ -2,7 +2,6 @@
 
     .container {
         width: 375px;
-        margin: 0 auto;
     }
 
     .hider-phone {
@@ -17,19 +16,14 @@
         margin-right: 16px;
     }
     
-    /* .content__firstBlock {
-        flex-shrink: 0;
+    .content__firstBlock {
         background-color: #F1E4E6;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100%;
-    } */
+        display: flex;
+    }
     
     .content__firstBlock__deskriptionBlock{
         padding: 150px 56px;
-        /* padding-left: 56px; */
         justify-content: center;
-        /* padding-top: 150px; */
         align-items: center;
         gap: 15px;
     }
@@ -51,20 +45,20 @@
     }
     
     .content__centeredBlock {
-        padding: 64px 16px;
-        width: 375px;
+        padding: 64px 8px 85px 8px;
+        width: 359px;
         margin: 0 auto;
     }
     
     .content__topSection {
-        /* grid-template-columns: 1fr;
-        grid-template-rows: 248px 248px 248px 111px; */
         gap: 32px;
-        /* margin-bottom: 110px; */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 343px;
+        margin-bottom: 64px;
+        margin-left: 8px;
     }
     
     .content__tS__fBoxWomen {
@@ -90,12 +84,12 @@
     }
 
     .content__bS__grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         margin-bottom: 40px;
     }
 
-    .content__bS__blockBtn {
-        margin-bottom: 85px;
+    .bord__img {
+        height: 100%;
     }
 }

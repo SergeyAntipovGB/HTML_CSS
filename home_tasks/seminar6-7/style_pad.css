@@ -2,7 +2,6 @@
 
     .container {
         width: 768px;
-        margin: 0 auto;
     }
     
     .header__leftBlock {
@@ -28,7 +27,7 @@
     }
     
     .content__centeredBlock {
-        padding: 65px 16px;
+        padding: 65px 16px 70px 16px;
         width: 735px;
         margin: 0 auto;
     }
@@ -79,9 +78,5 @@
         grid-template-rows: 1fr 1fr 1fr;
         gap: 16px;
         margin-bottom: 33px;
-    }
-
-    .content__bS__blockBtn {
-        margin-bottom: 70px;
     }
 }

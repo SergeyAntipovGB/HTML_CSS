@@ -95,7 +95,7 @@ section {}
 .content__secondBlock {}
 
 .content__centeredBlock {
-    padding: 67px 230px;
+    padding: 65px 230px 60px 230px;
     width: 1140px;
     margin: 0 auto;
 }
@@ -152,8 +152,6 @@ section {}
     font-family: Lato;
 }
 
-
-
 .content__bottomSection {}
 
 .content__bS__header {
@@ -195,12 +193,12 @@ section {}
 
 .bord {
     margin-bottom: 25px;
+    height: 420px;
 }
 
 .bord2 {
     background-color: rgba(247, 228, 226, 1);
-    width: 360px;
-    height: 420px;
+    /* width: 360px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +240,6 @@ section {}
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
 }
 
 .content__bS__navigation {
