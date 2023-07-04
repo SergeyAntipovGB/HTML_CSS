@@ -1,0 +1,82 @@
+@media (max-width: 768px ){
+
+    .container {
+        width: 768px;
+    }
+    
+    .header__leftBlock {
+        margin-left: 32px;
+    }
+    
+    .header__rihgtBlock {
+        margin-right: 40px;
+    }
+    
+    .content__textBlock__title {
+        font-size: 44px;
+    }
+    
+    .content__textBlock__subtitle {
+        font-size: 24px;
+    }
+
+    .content__firstBlock__deskriptionBlock{
+        padding-left: 40px;
+        padding-top: 138px;
+        gap: 16px;
+    }
+    
+    .content__centeredBlock {
+        padding: 65px 16px 70px 16px;
+        width: 735px;
+        margin: 0 auto;
+    }
+    
+    .content__topSection {
+        grid-template-rows: 167px 116px;
+        gap: 20px;
+        margin-bottom: 110px;
+    }
+    
+    .content__tS__fBoxWomen {
+        width: 232px;
+        height: 168px;
+    }
+    .content__tS__fBoxMan {
+        width: 232px;
+        height: 168px;
+    }
+    .content__tS__fBoxChild {
+        width: 232px;
+        height: 168px;
+    }
+    .content__tS__fBoxLong {
+        width: 735px;
+        height: 116px;
+    }
+    
+    .content__tS__p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .content__tS__h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .content__bS__headertitle {
+        margin-bottom: 3px;
+    }
+    
+    .content__bS__headerdescribe {
+        margin-bottom: 73px;
+    }
+
+    .content__bS__grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 33px;
+    }
+}

@@ -1,0 +1,95 @@
+@media (max-width: 375px ){
+
+    .container {
+        width: 375px;
+    }
+
+    .hider-phone {
+        display: none;
+    }
+    
+    .header__leftBlock {
+        margin-left: 16px;
+    }
+    
+    .header__rihgtBlock {
+        margin-right: 16px;
+    }
+    
+    .content__firstBlock {
+        background-color: #F1E4E6;
+        display: flex;
+    }
+    
+    .content__firstBlock__deskriptionBlock{
+        padding: 150px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .content__verticalBlock {
+        height: 61px;
+    }
+
+    .content__textBlock {
+        width: 236px;
+    }
+
+    .content__textBlock__title {
+        font-size: 38px;
+    }
+    
+    .content__textBlock__subtitle {
+        font-size: 20px;
+    }
+    
+    .content__centeredBlock {
+        padding: 64px 8px 85px 8px;
+        width: 359px;
+        margin: 0 auto;
+    }
+    
+    .content__topSection {
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 343px;
+        margin-bottom: 64px;
+        margin-left: 8px;
+    }
+    
+    .content__tS__fBoxWomen {
+        width: 343px;
+        height: 247px;
+    }
+    .content__tS__fBoxMan {
+        width: 343px;
+        height: 247px;
+    }
+    .content__tS__fBoxChild {
+        width: 343px;
+        height: 247px;
+    }
+    .content__tS__fBoxLong {
+        background-image: url(./img/content5_phone.png);
+        width: 343px;
+        height: 111px;
+    }
+    
+    .content__bS__headerdescribe {
+        margin-bottom: 65px;
+    }
+
+    .content__bS__grid {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 40px;
+    }
+
+    .bord__img {
+        height: 100%;
+    }
+}
