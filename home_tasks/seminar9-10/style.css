@@ -468,9 +468,22 @@ figure {}
     width: 32px;
     height: 32px;
     background: white;
-    color: black;
+    fill: green;
+    color: rgb(240, 14, 14);
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.fill-logo {
+    fill: green;
+    stroke: aqua;
+}
+
+.fill-logo:hover {
+    background: #F16D7F;
+    fill: green;
+    stroke: aqua;
+    color: blueviolet;
 }
