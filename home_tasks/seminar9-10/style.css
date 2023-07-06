@@ -219,10 +219,17 @@ section {}
 }
 
 .choice-layer {
-    background:none;
+    background:rgba(154, 24, 24, 0.1);
+    color: red;
     width: 100%;
     height: 100%;
 }
+
+.choice-layer__box {
+    color: white;
+}
+
+.choice-layer__box__text {}
 
 .choice-layer:hover {
     background:rgba(58, 56, 56, 0.86);
