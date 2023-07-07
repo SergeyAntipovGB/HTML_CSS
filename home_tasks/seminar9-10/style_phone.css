@@ -179,13 +179,11 @@
         font-size: 18px;
     }
 
-    /* .footer__s__rightbox {
-        width: 557px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
+    .footer__s__rightbox {
+        width: 343px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 
     .footer__s__sub {
         margin-bottom: 0;
@@ -239,18 +237,10 @@
         cursor: pointer;
     } */
 
-    /* .footer__s__btn__txt {
-        width: 85px;
-        height: 36px;
-        border: none;
-        background: #F16D7F;
-        color: #FFF;
-        text-align: center;
-        font-size: 14px;
-        font-family: Lato;
-        font-weight: 400;
-        cursor: pointer;
-    } */
+    .footer__s__btn__txt {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
 
 
     .footer__logos {

@@ -30,6 +30,8 @@ header {}
     justify-content: start;
     align-items: baseline;
     gap: 33px;
+    position: relative;
+    /* border: #F26376 solid 1px; */
 }
 
 .header__nav__img {
@@ -39,6 +41,28 @@ header {}
 .header__nav {
     cursor: pointer;
     color: #E8E8E8;
+}
+
+.ellipse {
+    position: absolute;
+    margin-top: -7px;
+    /* margin-right: 10px; */
+    margin-left: 148px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: #F16D7F;
+}
+
+.ellipse5 {
+    position: absolute;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-left: 7px;
+    
 }
 
 main {}
@@ -169,7 +193,7 @@ section {}
 }
 
 .content__bS__headerdescribe {
-    color: #9F9F9F;
+    /* color: #9F9F9F; */
     font-size: 14px;
     font-family: Lato;
     margin-bottom: 48px;
@@ -219,20 +243,47 @@ section {}
 }
 
 .choice-layer {
-    background:rgba(154, 24, 24, 0.1);
-    color: red;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility: collapse; */
 }
 
 .choice-layer__box {
-    color: white;
+    color: rgb(245, 200, 63);
+    width: 139px;
+    height: 44px;
+    border: 1px solid #FFF;
+    /* background:rgba(255, 255, 255, 0.563); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 16px 0 14px;
+    visibility: collapse;
 }
 
-.choice-layer__box__text {}
+.choice-layer__box__img {
+    fill: #FFF;
+    width: 26px;
+    height: 24px;
+}
+
+.choice-layer__box__text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
 
 .choice-layer:hover {
+    /* visibility: visible; */
     background:rgba(58, 56, 56, 0.86);
+}
+
+.choice-layer:hover .choice-layer__box {
+    visibility: visible;
 }
 
 .content__bS__title {
@@ -274,7 +325,7 @@ section {}
 .content__bS__navigation {
     width: 210px;
     height: 47px;
-    border: 1px solid rgba(242, 99, 118, 1);
+    border: 1px solid #FF6A6A;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,6 +337,16 @@ section {}
     font-size: 16px;
     font-family: Lato;
     font-weight: 400;
+}
+
+.content__bS__navigation:hover {
+    border: 1px solid #F26376;
+    color: white;
+    background: #F16D7F;
+}
+
+.content__bS__navigation:hover .content__bS__batton {
+    color: white;
 }
 
 
@@ -399,7 +460,8 @@ figure {}
 
 .footer__s__sub {
     font-size: 24px;
-    font-family: Lato; font-weight: 700;
+    font-family: Lato;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
