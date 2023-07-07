@@ -16,6 +16,57 @@ header {}
     background-color: #222;
 }
 
+.menu-active hidden {}
+
+.menu-active__all {
+    width: 232px;
+    background: #FFF;
+    border: #000 1px solid;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.menu-heading {
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 33px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.menu-man {}
+
+.menu-woman {}
+
+.menu-kids {}
+
+.menu-text {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 32px;
+    margin-bottom: 12px;
+}
+
+.menu-list {
+    text-decoration: none;
+    color: #6F6E6E;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 54px;
+    justify-content: start;
+    /* align-items: flex-start; */
+    gap: 11px;
+}
+
 .header__leftBlock {
     margin-left: 235px;
     display: flex;
