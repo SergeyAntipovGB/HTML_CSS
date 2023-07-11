@@ -1,8 +1,8 @@
-const menuActive = document.querySelector('.menu-active');
-const buttonMenu = document.querySelector('.burger-btn');
+const menuActive = document.querySelector('.menu-active');// initial menu
+const buttonMenu = document.querySelector('.burger-btn');// initial button
 
-function toggleMenu() {
+function toggleMenu() {// toggle position 'hidden'
     menuActive.classList.toggle('hidden');
 }
 
-buttonMenu.addEventListener('click', toggleMenu);
+buttonMenu.addEventListener('click', toggleMenu);// watch to click of .burger-btn

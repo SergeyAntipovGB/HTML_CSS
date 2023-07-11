@@ -6,7 +6,6 @@
     margin: 0 auto;
 }
 
-header {}
 
 .header__wrapper {
     height: 75px;
@@ -66,9 +65,6 @@ header {}
     
 }
 
-main {}
-
-section {}
 
 .firstBlock__wrapper {
     height: auto;
@@ -86,8 +82,6 @@ section {}
     top: 0;
 }
 
-.content__firstBlock__img {
-}
 
 .content__firstBlock__deskriptionBlock{
     display: flex;
@@ -110,7 +104,6 @@ section {}
     color: #F16D7F;
 }
 
-.content__textBlock {}
 
 .content__textBlock__title {
     color: #222;
@@ -159,12 +152,6 @@ section {}
     margin-bottom: 24px;
 }
 
-.menu-man {}
-
-.menu-woman {}
-
-.menu-kids {}
-
 .menu-text {
     color: #F16D7F;
     font-family: Lato;
@@ -193,10 +180,9 @@ section {}
     color: #6F6E6E;
 }
 
-.content__secondBlock {}
 
 .content__centeredBlock {
-    padding: 65px 230px;
+    padding: 65px 230px 95px 230px;
     width: 1140px;
     margin: 0 auto;
 }
@@ -253,7 +239,6 @@ section {}
     font-family: Lato;
 }
 
-.content__bottomSection {}
 
 .content__bS__header {
     display: flex;
@@ -427,10 +412,8 @@ section {}
 }
 
 
-footer {}
-
 .footer__description {
-    padding: 104px 230px;
+    padding: 70px 220px 100px 220px;
     background: #222224;
     display: flex;
     justify-content: space-around;
@@ -450,7 +433,7 @@ footer {}
 
 .footer__d__img {
     color: #F16D7F;
-    margin: 25px;
+    margin: 20px;
 }
 
 .footer__d__img__size1 {
@@ -500,8 +483,6 @@ footer {}
     align-items:self-start;
     margin-bottom: 50px;
 }
-
-figure {}
 
 .footer__s__photo {
     width: 145px;
@@ -610,7 +591,7 @@ figure {}
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 32px 230px;
+    padding: 25px 235px;
 }
 
 .footer__logos__reserve {
