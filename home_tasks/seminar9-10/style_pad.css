@@ -3,6 +3,10 @@
     .container {
         width: 768px;
     }
+
+    .firstBlock__wrapper{
+        height: 368px;
+    }
     
     .header__leftBlock {
         margin-left: 32px;

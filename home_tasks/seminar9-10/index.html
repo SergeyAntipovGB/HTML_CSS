@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_pad.css">
     <link rel="stylesheet" href="style_phone.css">
+    <script src="hide_menu.js" defer></script>
     <title>Hometask6</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
                 <img class="header__nav" src="./img/head2.svg" alt="head2">
             </div>
             <div class="header__rihgtBlock">
-                <img class="header__nav" src="./img/head3.svg" alt="head3">
+                <img class="header__nav burger-btn" src="./img/head3.svg" alt="head3">
                 <img class="header__nav hider-phone" src="./img/head4.svg" alt="head4">
                 <img class="header__nav hider-phone" src="./img/head5.png" alt="head5">
                 <div class="ellipse hider-phone">
@@ -26,59 +27,55 @@
                 </div>                
             </div>
         </nav>
-
-        <div class="menu-active hidden">
-            <div class="menu-active__all">
-                <!-- <button class="menu-close">
-                    <img src="" alt="">
-                </button> -->
-                <h4 class="menu-heading">MENU</h4>
-                <div class="menu-man">
-                    <h5 class="menu-text">MAN</h5>
-                    <ul class="menu-list">
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Accessories</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Bags</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Denim</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">T-Shirts</a></li>
-                    </ul>
-                </div>
-                <div class="menu-woman">
-                    <h5 class="menu-text">WOMAN</h5>
-                    <ul class="menu-list">
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Accessories</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Jackets & Coats</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Polos</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">T-Shirts</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Shirts</a></li>
-                    </ul>
-                </div>
-                <div class="menu-kids">
-                    <h5 class="menu-text">KIDS</h5>
-                    <ul class="menu-list">
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Accessories</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Bags</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Denim</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">T-Shirts</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Shirts</a></li>
-                        <li class="li-no-dcr"><a class="txtlist" href="#">Bags</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-
     </header>
 
     <main>
-        <section class="container content__wrapper">
-            <div class="content__firstBlock">
-                <img src="./img/content1.png" alt="content1" class="content__firstBlock__img hider-phone">
-                <div class="content__firstBlock__deskriptionBlock">
-                    <div class="content__verticalBlock"></div>
-                    <div class="content__textBlock">
-                        <div class="content__textBlock__title"><span>THE BRAND</span></div>
-                        <div class="content__textBlock__subtitle"><span>OF LUXERIOUS <b class="c__tB__pink">FASHION</b></span></div>
+        <section class="container">
+            <div class="firstBlock__wrapper">
+                <div class="content__firstBlock">
+                    <img src="./img/content1.png" alt="content1" class="content__firstBlock__img hider-phone">
+                    <div class="content__firstBlock__deskriptionBlock">
+                        <div class="content__verticalBlock"></div>
+                        <div class="content__textBlock">
+                            <div class="content__textBlock__title"><span>THE BRAND</span></div>
+                            <div class="content__textBlock__subtitle"><span>OF LUXERIOUS <b class="c__tB__pink">FASHION</b></span></div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="menu-active hidden">
+                    <div class="menu-active__all">
+                        <h4 class="menu-heading">MENU</h4>
+                        <div class="menu-man">
+                            <h5 class="menu-text">MAN</h5>
+                            <ul class="menu-list">
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Accessories</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Bags</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Denim</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">T-Shirts</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-woman">
+                            <h5 class="menu-text">WOMAN</h5>
+                            <ul class="menu-list">
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Accessories</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Jackets & Coats</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Polos</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">T-Shirts</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Shirts</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-kids">
+                            <h5 class="menu-text">KIDS</h5>
+                            <ul class="menu-list">
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Accessories</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Bags</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Denim</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">T-Shirts</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Shirts</a></li>
+                                <li class="li-no-dcr"><a class="txtlist" href="#">Bags</a></li>
+                            </ul>
+                        </div>
+        
                     </div>
                 </div>
             </div>
